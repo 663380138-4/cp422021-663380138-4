@@ -20,6 +20,52 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
         to: '/dashboard',
       }"
     />
+    <VerticalNavLink
+      :item="{
+        title: 'CRM',
+        href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/demo-1/dashboards/crm',
+        target: '_blank',
+        badgeContent: 'Pro',
+        badgeClass: 'bg-light-primary text-primary',
+      }"
+    />
+    <VerticalNavLink
+      :item="{
+        title: 'ECommerce',
+        href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/demo-1/dashboards/ecommerce',
+        target: '_blank',
+        badgeContent: 'Pro',
+        badgeClass: 'bg-light-primary text-primary',
+      }"
+    />
+    <VerticalNavLink
+      :item="{
+        title: 'Academy',
+        href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/demo-1/dashboards/academy',
+        target: '_blank',
+        badgeContent: 'Pro',
+        badgeClass: 'bg-light-primary text-primary',
+      }"
+    />
+    <VerticalNavLink
+      :item="{
+        title: 'Logistics',
+        href: 'https://demos.themeselection.com/materio-vuetify-vuejs-admin-template/demo-1/dashboards/logistics',
+        target: '_blank',
+        badgeContent: 'Pro',
+        badgeClass: 'bg-light-primary text-primary',
+      }"
+    />
+  </VerticalNavGroup>
+
+
+  <!-- 👉 Apps & Pages -->
+  <VerticalNavSectionTitle
+    :item="{
+      heading: 'Apps & Pages',
+    }"
+  />
+ 
 
   <VerticalNavLink
     :item="{
@@ -107,7 +153,7 @@ import VerticalNavLink from '@layouts/components/VerticalNavLink.vue'
       heading: 'Others',
     }"
   />
-  
+ 
   <VerticalNavLink
     :item="{
       title: 'Documentation',
